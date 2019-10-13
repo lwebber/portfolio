@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills li {
+    font-size: 3.5em;
+}
