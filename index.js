@@ -1,7 +1,6 @@
 function handleClicks() {
-    $('.bio').hide();
-    $('button').on('click', function(event) {
-        $('.bio').toggleClass('bio');
+    $('.btn').on('click', function(event) {
+        $('.bio').toggleClass('none');
     });
 }
 
