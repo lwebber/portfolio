@@ -2,16 +2,45 @@
     box-sizing: border-box;
 }
 
+header img {
+    border-radius: 50%;
+}
+
 header {
-    display: flex;
+    text-align: center;
+}
+
+.showcase {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skills li {
     font-size: 3.5em;
+    opacity: 50%;
+    border: 1px solid gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact li,
+.projects li {
+    font-size: 2.5em;
+    margin: 2px;
+    padding: 2px;
+    opacity: 50%;
+    border: 1px solid gray;
 }
