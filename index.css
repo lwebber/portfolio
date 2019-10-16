@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    /*background-color: #46344E;*/
-}
-
 header img {
     border-radius: 50%;
     opacity: 70%;
@@ -95,22 +91,6 @@ ul {
 
 .projects li {
     font-size: 12em;
-}
-
-a:visited {
-    /* color: #9b786F; */
-}
-
-a {
-    /* color: #FAED26; */
-}
-
-a:visited {
-    /* color: #9b786F; */
-}
-
-button:focus {
-    /* outline-color: #FAED26; */
 }
 
 .projects li img {
