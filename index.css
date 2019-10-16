@@ -9,6 +9,7 @@ body {
 header img {
     border-radius: 50%;
     opacity: 70%;
+    box-shadow: 2px 2px lightgray;
 }
 
 header {
@@ -89,7 +90,6 @@ ul {
     margin-right: 8px;
     margin-left: 8px;
     padding: 0px;
-    opacity: 50%;
     /* color: #9D8d8f; */
 }
 
@@ -106,7 +106,7 @@ a {
 }
 
 a:visited {
-    color: #9b786F;
+    /* color: #9b786F; */
 }
 
 button:focus {
@@ -115,6 +115,7 @@ button:focus {
 
 .projects li img {
     border: 1px solid gray;
+    box-shadow: 2px 2px lightgray;
 }
 
 
