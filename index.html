@@ -18,11 +18,10 @@
 <body>
     <header>
         <nav class="navbar">
-            <!--<div class="hamburger">&#9776;</div>-->
             <ul class="menu">
                 <li>Home</li>
                 <li><a href="bio.html">Bio</a></li>
-                <li>Contact</li>
+                <li><a href="mailto: hello@lwebber.dev">Contact</a></li>
             </ul>
         </nav>
         <h1>Hi, I'm Laura</h1>
@@ -52,65 +51,22 @@
         <section class="portfolio">
             <h1>Things I've Made</h1>
             <ul class="projects ">
-                <li><img src="./images/quiz.png" alt="" height="200px"></img>
-                </li>
-                <li><button id="Btn">DharmaMe</button></li>
-                <li><button id="myBtn">Ruby Todo</button></li>
-                <li><button id="myBtn">Another Project</button></li>
+                <li><button id="project-1">Coming Soon</button></li>
+                <li><button id="project-2">Coming Soon</button></li>
+                <li><button id="project-3">Coming Soon</button></li>
+                <li><button id="project-4">Coming Soon</button></li>
             </ul>
         </section>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Punctuation Quiz</p>
-            </div>
 
-        </div>
-
-        <div id="myModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>DharmaMe/p>
-            </div>
-
-        </div>
     </main>
     <footer>
         <ul class="contact ">
             <li><a href="mailto:hello@lwebber.dev"><i class="fas fa-envelope-square"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/laurawebber/"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://github.com/lwebber"><i class="devicon-github-plain-wordmark"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/laurawebber/"><i class="fab fa-linkedin"></i></a></li>
         </ul>
     </footer>
     <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
     </script>
 
 </body>
