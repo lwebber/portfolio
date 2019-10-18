@@ -90,12 +90,19 @@ ul {
     margin-left: 8px;
 }
 
-.projects li {
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects>* {
     border: 1px solid gray;
-    box-shadow: 2px 2px lightgray;
+    box-shadow: 4px 4px lightgray;
     margin-top: 5px;
     margin-right: 8px;
     margin-left: 8px;
+    width: 200px;
+    height: 144px;
 }
 
 footer {
@@ -108,4 +115,8 @@ a {
 
 a:visited {
     color: gray
+}
+
+a:hover {
+    color: #a6a600;
 }
