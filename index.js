@@ -4,7 +4,7 @@ function run() {
     respond();
 
     function respond() {
-        let x = $("myTopnav");
+        let x = $("#myTopnav");
         if (x.hasClass("topnav")) {
             x.addClass("responsive");
         } else {
