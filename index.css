@@ -7,8 +7,8 @@
 /*header*/
 
 header {
-    margin-top: 20px;
     text-align: center;
+    padding: 0px;
 }
 
 h1 {
@@ -42,6 +42,7 @@ p {
     max-width: 780px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 65px;
 }
 
 
@@ -120,19 +121,17 @@ a {
 }
 
 .topnav {
-    background-color: #A60000;
     overflow: hidden;
     text-align: right;
-    border-radius: 20px;
-    box-shadow: 2px 2px lightgray;
-    position: fixed;
-    width: 100%;
+    width: 16%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
