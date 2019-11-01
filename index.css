@@ -111,19 +111,16 @@ ul {
 
 .projects {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
-.projects>* {
+.project-item {
     border: 1px solid gray;
     box-shadow: 4px 4px lightgray;
-    /*     margin-top: 10px;
-    margin-right: 8px;
-    margin-left: 8px;
-    width: 200px;
-    height: 127px; */
+    margin-bottom: 15px;
+    max-width: 45%;
 }
 
 .proj-desc {
@@ -185,5 +182,13 @@ a:hover {
     }
     .portrait {
         height: 150px;
+    }
+    .projects {
+        display: block;
+    }
+    .project-item {
+        max-width: 90%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
